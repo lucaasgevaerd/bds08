@@ -1,0 +1,36 @@
+.donut-chart-card-container {
+  margin-top: 10px;
+  padding: 40px 15px 60px;
+}
+
+.donut-chart-graphic {
+  display: flex;
+  justify-content: center;
+}
+
+.apexcharts-legend {
+  margin: 0 auto;
+}
+
+.apexcharts-legend-series .apexcharts-legend-marker {
+  margin-right: 10px;
+}
+
+@media (min-width: 576px) {
+  .donut-chart-card-container {
+    margin-top: 40px;
+    padding: 40px 15px 60px 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .donut-chart-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .donut-chart-graphic {
+    padding: 40px 68px 60px 40px;
+  }
+}
